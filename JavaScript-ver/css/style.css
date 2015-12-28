@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 50px 150px;
+    background-color: #e8ffd5;
+}
+
+form {
+    display: inline-block;
+}
+
+input[name=checkListItem]{
+    min-width: 200px;
+}
+
+#btn-add{
+    display: inline-block;
+    height:20px;
+	width:80px;
+	background-color: #66cc66;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#todo-list {
+    /*border: 1px solid blue;*/
+}
+
+.delete-link{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color:#cc0000;
+    text-align: center;
+    color: #fff;
+    font-weight:bold;
+    cursor: pointer;
+}
